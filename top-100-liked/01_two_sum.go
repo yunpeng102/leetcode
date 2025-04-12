@@ -17,7 +17,7 @@ func twoSum(nums []int, target int) []int {
 		} else if copySlice[x]+copySlice[y] >= target {
 			y--
 		} else {
-			x--
+			x++
 		}
 	}
 
